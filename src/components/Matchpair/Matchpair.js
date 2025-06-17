@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
-import HSK1 from '../data/hsk1-data.json';
-import HSK2 from '../data/hsk2-data.json';
-import HSK3 from '../data/hsk3-data.json';
-import transformHSK1Data from '../utils/transformHSKdata';
+import HSK1 from '../../data/hsk1-data.json';
+import HSK2 from '../../data/hsk2-data.json';
+import HSK3 from '../../data/hsk3-data.json';
+import transformHSK1Data from '../../utils/transformHSKdata';
 import {DndContext} from '@dnd-kit/core';
-import {Card} from './Card';
+import {Card} from '../Card/Card';
+import './Matchpair.css';
 function Matchpair() {
 	const [itemsHSK1, setItemsHSK1] = useState(transformHSK1Data(HSK1));
 	const [itemsHSK2, setItemsHSK2] = useState(transformHSK1Data(HSK2));
