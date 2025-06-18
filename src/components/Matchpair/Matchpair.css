@@ -6,3 +6,62 @@
 	margin: auto;
 	gap: 1rem;
 }
+.game-board {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+}
+
+.cards-column {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.cards-column h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+.chinese-character {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.translation {
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.pinyin {
+	font-style: italic;
+	color: #666;
+}
+
+.meaning {
+	margin-top: 0.5rem;
+	font-weight: bold;
+}
+
+.next-button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.next-button {
+	background-color: #4caf50; /* vert sympa */
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+	background-color: #45a049;
+}

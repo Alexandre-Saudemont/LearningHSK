@@ -10,11 +10,13 @@ function transformHSKdata(data) {
 				id: `${hanzi}`,
 				content: hanzi,
 				matched: false,
+				type: 'character',
 			},
 			{
 				id: `${hanzi}-combined`,
 				content: `${pinyin} - ${english}`,
 				matched: false,
+				type: 'translation',
 			},
 		);
 	}
