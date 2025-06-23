@@ -19,7 +19,9 @@ function Matchpair() {
 	const [gameRound, setGameRound] = useState(0);
 	const [currentPairs, setCurrentPairs] = useState([]);
 	const [translationCardsFrozen, setTranslationCardsFrozen] = useState([]);
-
+	const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+	const [selectedCharacter, setSelectedCharacter] = useState(null);
+	const [selectedTranslation, setSelectedTranslation] = useState(null);
 	const allPairs = useMemo(() => {
 		let items = [];
 		if (level === 'HSK1') items = itemsHSK1;
@@ -62,6 +64,52 @@ function Matchpair() {
 		setTranslationCardsFrozen(shuffleArray(translations));
 		setShowNextButton(false);
 	}, [level, pairCount, gameRound, allPairs]);
+
+	useEffect(() => {
+		const checkMobile = () => {
+			setIsMobile(window.innerWidth <= 768);
+		};
+		checkMobile();
+		window.addEventListener('resize', checkMobile);
+		return () => {
+			window.removeEventListener('resize', checkMobile);
+		};
+	}, []);
+
+	useEffect(() => {
+		if (selectedCharacter && selectedTranslation) {
+			const charId = selectedCharacter.id;
+			const transId = selectedTranslation.id.replace('-combined', '');
+
+			if (charId === transId) {
+				const newMatchedPairs = [...matchedPairs, charId];
+				setMatchedPairs(newMatchedPairs);
+
+				setCurrentPairs((prevPairs) =>
+					prevPairs.map((pair) =>
+						pair.hanzi === charId
+							? {
+									...pair,
+									characterCard: {...pair.characterCard, matched: true},
+									translationCard: {...pair.translationCard, matched: true},
+							  }
+							: pair,
+					),
+				);
+
+				setTranslationCardsFrozen((prev) => prev.map((card) => (card.id === `${charId}-combined` ? {...card, matched: true} : card)));
+
+				const allMatched = currentPairs.every((pair) => newMatchedPairs.includes(pair.hanzi));
+				setShowNextButton(allMatched);
+			}
+
+			// Reset sélection
+			setTimeout(() => {
+				setSelectedCharacter(null);
+				setSelectedTranslation(null);
+			}, 300);
+		}
+	}, [selectedCharacter, selectedTranslation]);
 
 	// Gérer le drag and drop
 	function handleDragEnd({active, over}) {
@@ -154,6 +202,8 @@ function Matchpair() {
 									item={pair.characterCard}
 									type='character'
 									matched={matchedPairs.includes(pair.hanzi)}
+									onClick={() => setSelectedCharacter(pair.characterCard)}
+									selected={selectedCharacter?.id === pair.characterCard.id}
 								/>
 							))}
 						</div>
@@ -168,6 +218,8 @@ function Matchpair() {
 									item={pair}
 									type='translation'
 									matched={matchedPairs.includes(pair.id.replace('-combined', ''))}
+									onClick={() => setSelectedTranslation(pair)}
+									selected={selectedTranslation?.id === pair.id}
 								/>
 							))}
 						</div>

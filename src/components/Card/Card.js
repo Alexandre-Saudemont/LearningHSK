@@ -1,6 +1,8 @@
 import {useDraggable, useDroppable} from '@dnd-kit/core';
 import './Card.css';
-export function Card({item}) {
+export function Card({item, onClick, type, selected, matched}) {
+	const isMobile = window.innerWidth <= 768;
+
 	const {
 		attributes,
 		listeners,
@@ -8,7 +10,7 @@ export function Card({item}) {
 		transform,
 	} = useDraggable({
 		id: item.id,
-		disabled: item.matched,
+		disabled: matched || isMobile, // Désactiver drag sur mobile
 	});
 
 	const {setNodeRef: setDroppableRef, isOver} = useDroppable({
@@ -19,27 +21,17 @@ export function Card({item}) {
 		setDraggableRef(node);
 		setDroppableRef(node);
 	};
-	// Pour le faire sans passer par un fichier CSS, on peut faire comme suit :
-	// const style = {
-	// 	transform: transform ? `translate3d(${transform.x}px, ${transform.y}px, 0)` : undefined,
-	// 	border: '2px solid ' + (isOver ? '#007bff' : '#ccc'),
-	// 	backgroundColor: item.matched ? '#d4edda' : '#fff',
-	// 	padding: '10px',
-	// 	margin: '10px',
-	// 	display: 'inline-block',
-	// 	cursor: item.matched ? 'not-allowed' : 'grab',
-	// 	opacity: item.matched ? 0.5 : 1,
-	// 	minWidth: '80px',
-	// 	textAlign: 'center',
-	// };
 
 	return (
 		<div
-			className={`card ${item.matched ? 'matched' : ''} ${isOver ? 'is-over' : ''}`}
-			style={{transform: transform ? `translate3d(${transform.x}px, ${transform.y}px, 0)` : undefined}}
+			className={`card ${matched ? 'matched' : ''} ${isOver ? 'is-over' : ''} ${selected ? 'selected' : ''} ${type}`}
+			style={{
+				transform: transform ? `translate3d(${transform.x}px, ${transform.y}px, 0)` : undefined,
+			}}
 			ref={setRef}
-			{...listeners}
-			{...attributes}>
+			onClick={onClick}
+			{...(isMobile ? {} : listeners)}
+			{...(isMobile ? {} : attributes)}>
 			{item.content}
 		</div>
 	);

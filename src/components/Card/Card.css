@@ -25,3 +25,23 @@
 .card.is-over {
 	border-color: #007bff;
 }
+
+.card.selected {
+	border: 3px solid #007bff; /* bleu vif */
+	box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+.card.character.selected {
+	border-color: #28a745; /* vert */
+}
+
+.card.translation.selected {
+	border-color: #ffc107; /* jaune */
+}
+
+.card.character {
+	font-size: 1rem;
+}
+
+.card.translation {
+	font-size: 1rem;
+}
