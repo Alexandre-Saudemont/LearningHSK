@@ -181,6 +181,8 @@ function Matchpair() {
 						<option value={5}>5 pairs</option>
 						<option value={10}>10 pairs</option>
 						<option value={15}>15 pairs</option>
+						<option value={20}>20 pairs</option>
+						<option value={25}>25 pairs</option>
 					</select>
 				</div>
 			</div>
