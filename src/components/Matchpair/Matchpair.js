@@ -22,6 +22,7 @@ function Matchpair() {
 	const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 	const [selectedCharacter, setSelectedCharacter] = useState(null);
 	const [selectedTranslation, setSelectedTranslation] = useState(null);
+
 	const allPairs = useMemo(() => {
 		let items = [];
 		if (level === 'HSK1') items = itemsHSK1;

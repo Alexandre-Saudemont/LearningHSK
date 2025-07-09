@@ -32,8 +32,9 @@
 }
 .game-board {
 	display: flex;
-	gap: 2rem;
+	gap: 1rem;
 	justify-content: center;
+	align-items: center;
 }
 
 .cards-column {
@@ -44,7 +45,7 @@
 
 .cards-column h3 {
 	text-align: center;
-	margin-bottom: 1rem;
+
 	color: #333;
 }
 
@@ -71,6 +72,7 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 
 .next-button {
@@ -92,6 +94,7 @@
 		display: flex;
 		justify-content: center;
 		padding: 1rem;
+		align-items: center;
 	}
 
 	.cards-container {
@@ -127,6 +130,6 @@
 		display: flex;
 		justify-content: center;
 		margin-top: 20px;
-		margin-bottom: 20px;
+		padding-bottom: 20px;
 	}
 }
