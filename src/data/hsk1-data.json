@@ -1,0 +1,1535 @@
+{
+  "爱": {
+    "translations": {
+      "fr": "aimer, amour",
+      "en": "to love, love"
+    },
+    "pinyin": "ài"
+  },
+  "八": {
+    "translations": {
+      "fr": "huit",
+      "en": "8, eight"
+    },
+    "pinyin": "bā"
+  },
+  "八月": {
+    "translations": {
+      "fr": "août",
+      "en": "august"
+    },
+    "pinyin": "bāyuè"
+  },
+  "爸爸": {
+    "translations": {
+      "fr": "papa",
+      "en": "daddy, father"
+    },
+    "pinyin": "bàba"
+  },
+  "吧": {
+    "translations": {
+      "fr": "(indique une question dont on prévoit déjà la réponse) ; (indique une invitation à faire qqch.)",
+      "en": "indicating suggestion"
+    },
+    "pinyin": "ba"
+  },
+  "白": {
+    "translations": {
+      "fr": "blanc",
+      "en": "white, bright, pure"
+    },
+    "pinyin": "bái"
+  },
+  "百": {
+    "translations": {
+      "fr": "cent",
+      "en": "hundred, 100"
+    },
+    "pinyin": "bǎi"
+  },
+  "帮助": {
+    "translations": {
+      "fr": "aider, aide",
+      "en": "help, assistance"
+    },
+    "pinyin": "bāngzhù"
+  },
+  "报纸": {
+    "translations": {
+      "fr": "journal, périodique 张, 份",
+      "en": "newspaper"
+    },
+    "pinyin": "bàozhǐ"
+  },
+  "杯": {
+    "translations": {
+      "fr": "verre, coupe",
+      "en": "glass, cup"
+    },
+    "pinyin": "bēi"
+  },
+  "杯子": {
+    "translations": {
+      "fr": "verre, tasse 个",
+      "en": "cup, glass"
+    },
+    "pinyin": "bēizi"
+  },
+  "北京": {
+    "translations": {
+      "fr": "Pékin (Beijing)",
+      "en": "Beijing"
+    },
+    "pinyin": "Běijīng"
+  },
+  "本": {
+    "translations": {
+      "fr": "(pour livres, cahiers, dictionnaires, etc.) ; racine, origine",
+      "en": "classifier for books"
+    },
+    "pinyin": "běn"
+  },
+  "比": {
+    "translations": {
+      "fr": "comparer ; (prép. de comparaison)",
+      "en": "than, used for comparison"
+    },
+    "pinyin": "bǐ"
+  },
+  "别": {
+    "translations": {
+      "fr": "autres ; (nég. impératif ) nég.",
+      "en": "to leave, other, don't"
+    },
+    "pinyin": "bié"
+  },
+  "宾馆": {
+    "translations": {
+      "fr": "hôtel",
+      "en": "hotel"
+    },
+    "pinyin": "bīnguǎn"
+  },
+  "不": {
+    "translations": {
+      "fr": "ne pas, non",
+      "en": "no, negation particle”"
+    },
+    "pinyin": "bù"
+  },
+  "不客气": {
+    "translations": {
+      "fr": "De rien. Je vous en prie. (pol.)",
+      "en": "you are welcome"
+    },
+    "pinyin": "bú kèqì"
+  },
+  "菜": {
+    "translations": {
+      "fr": "légume, plat",
+      "en": "vegetable, dish"
+    },
+    "pinyin": "cài"
+  },
+  "茶": {
+    "translations": {
+      "fr": "thé",
+      "en": "tea"
+    },
+    "pinyin": "chá"
+  },
+  "茶杯": {
+    "translations": {
+      "fr": "tasse à thé",
+      "en": "teacup"
+    },
+    "pinyin": "chábēi"
+  },
+  "唱歌": {
+    "translations": {
+      "fr": "chanter",
+      "en": "to sing"
+    },
+    "pinyin": "chànggē"
+  },
+  "车": {
+    "translations": {
+      "fr": "véhicule, voiture",
+      "en": "vehicle, car"
+    },
+    "pinyin": "chē"
+  },
+  "吃": {
+    "translations": {
+      "fr": "manger",
+      "en": "to eat"
+    },
+    "pinyin": "chī"
+  },
+  "吃饭": {
+    "translations": {
+      "fr": "manger",
+      "en": "eat"
+    },
+    "pinyin": "chī fàn"
+  },
+  "出": {
+    "translations": {
+      "fr": "sortir",
+      "en": "to go out, to happen"
+    },
+    "pinyin": "chū"
+  },
+  "出租车": {
+    "translations": {
+      "fr": "taxi 辆",
+      "en": "taxi"
+    },
+    "pinyin": "chūzūchē"
+  },
+  "穿": {
+    "translations": {
+      "fr": "revêtir, (s')habiller",
+      "en": "to wear, to put on, to dress"
+    },
+    "pinyin": "chuān"
+  },
+  "次": {
+    "translations": {
+      "fr": "fois (une fois, deux fois)",
+      "en": "once (once, twice)"
+    },
+    "pinyin": "cì"
+  },
+  "从": {
+    "translations": {
+      "fr": "depuis, de",
+      "en": "from, since"
+    },
+    "pinyin": "cóng"
+  },
+  "错": {
+    "translations": {
+      "fr": "faux ; être fautif ; erreur 个 v. / n.",
+      "en": "mistake, error, wrong"
+    },
+    "pinyin": "cuò"
+  },
+  "打": {
+    "translations": {
+      "fr": "frapper, taper",
+      "en": "hit, hit"
+    },
+    "pinyin": "dǎ"
+  },
+  "打车": {
+    "translations": {
+      "fr": "prendre un taxi",
+      "en": "take a taxi"
+    },
+    "pinyin": "dǎ chē"
+  },
+  "打电话": {
+    "translations": {
+      "fr": "téléphoner",
+      "en": "to make a phone call"
+    },
+    "pinyin": "dǎ diànhuà"
+  },
+  "打篮球": {
+    "translations": {
+      "fr": "jouer au basket",
+      "en": "to play basketball"
+    },
+    "pinyin": "dǎ lánqiú"
+  },
+  "大": {
+    "translations": {
+      "fr": "grand ; âgé",
+      "en": "large, big"
+    },
+    "pinyin": "dà"
+  },
+  "大家": {
+    "translations": {
+      "fr": "tout le monde, tous",
+      "en": "everybody, all"
+    },
+    "pinyin": "dàjiā"
+  },
+  "大学": {
+    "translations": {
+      "fr": "université",
+      "en": "university"
+    },
+    "pinyin": "dàxué"
+  },
+  "到": {
+    "translations": {
+      "fr": "arriver à ; à",
+      "en": "to arrive, to reach, to, until"
+    },
+    "pinyin": "dào"
+  },
+  "得": {
+    "translations": {
+      "fr": "(introduit le complément d’appréciation, de degré, de potentialité)",
+      "en": "(introduces the complement of appreciation, degree, potentiality)"
+    },
+    "pinyin": "de"
+  },
+  "的": {
+    "translations": {
+      "fr": "(entre le déterminant et le déterminé)",
+      "en": "possession particle"
+    },
+    "pinyin": "de"
+  },
+  "等": {
+    "translations": {
+      "fr": "attendre",
+      "en": "to wait, rank, equal to"
+    },
+    "pinyin": "děng"
+  },
+  "弟弟": {
+    "translations": {
+      "fr": "frère cadet 个",
+      "en": "younger brother"
+    },
+    "pinyin": "dìdi"
+  },
+  "第一": {
+    "translations": {
+      "fr": "le premier (nombre ordinal)",
+      "en": "first, number one"
+    },
+    "pinyin": "dì-yī"
+  },
+  "点": {
+    "translations": {
+      "fr": "heure (point précis du jour)",
+      "en": "point, dot, o'clock"
+    },
+    "pinyin": "diǎn"
+  },
+  "点儿": {
+    "translations": {
+      "fr": "peu (quantité)",
+      "en": "little (quantity)"
+    },
+    "pinyin": "diǎnr"
+  },
+  "电话": {
+    "translations": {
+      "fr": "téléphone, appareil téléphonique",
+      "en": "telephone, telephone device"
+    },
+    "pinyin": "diànhuà"
+  },
+  "电脑": {
+    "translations": {
+      "fr": "ordinateur 个, 台",
+      "en": "computer"
+    },
+    "pinyin": "diànnǎo"
+  },
+  "电视": {
+    "translations": {
+      "fr": "télévision, téléviseur 个",
+      "en": "television"
+    },
+    "pinyin": "diànshì"
+  },
+  "电影": {
+    "translations": {
+      "fr": "film, cinéma 部",
+      "en": "movie, film"
+    },
+    "pinyin": "diànyǐng"
+  },
+  "电影院": {
+    "translations": {
+      "fr": "cinéma (lieu)",
+      "en": "cinema (place)"
+    },
+    "pinyin": "diànyǐngyuàn"
+  },
+  "店": {
+    "translations": {
+      "fr": "magasin",
+      "en": "store"
+    },
+    "pinyin": "diàn"
+  },
+  "东西": {
+    "translations": {
+      "fr": "chose 个",
+      "en": "thing"
+    },
+    "pinyin": "dōngxi"
+  },
+  "懂": {
+    "translations": {
+      "fr": "comprendre",
+      "en": "to understand, to know"
+    },
+    "pinyin": "dǒng"
+  },
+  "都": {
+    "translations": {
+      "fr": "tout, tous",
+      "en": "all"
+    },
+    "pinyin": "dōu"
+  },
+  "读": {
+    "translations": {
+      "fr": "lire à haute voix ; étudier",
+      "en": "read"
+    },
+    "pinyin": "dú"
+  },
+  "对": {
+    "translations": {
+      "fr": "correct, juste",
+      "en": "right, correct, pair"
+    },
+    "pinyin": "duì"
+  },
+  "对不起": {
+    "translations": {
+      "fr": "Excusez-moi. Pardon.",
+      "en": "sorry, I'm sorry"
+    },
+    "pinyin": "duìbuqǐ"
+  },
+  "多": {
+    "translations": {
+      "fr": "nombreux ; plus de ; davantage",
+      "en": "many, much"
+    },
+    "pinyin": "duō"
+  },
+  "多少": {
+    "translations": {
+      "fr": "combien?",
+      "en": "how many (> 10)"
+    },
+    "pinyin": "duōshao"
+  },
+  "儿子": {
+    "translations": {
+      "fr": "fils 个",
+      "en": "son"
+    },
+    "pinyin": "érzi"
+  },
+  "二": {
+    "translations": {
+      "fr": "deux",
+      "en": "2, two"
+    },
+    "pinyin": "èr"
+  },
+  "饭": {
+    "translations": {
+      "fr": "riz (cuit) ; repas",
+      "en": "rice (cooked); meal"
+    },
+    "pinyin": "fàn"
+  },
+  "饭店": {
+    "translations": {
+      "fr": "restaurant 个, 家",
+      "en": "restaurant, hotel"
+    },
+    "pinyin": "fàndiàn"
+  },
+  "飞机": {
+    "translations": {
+      "fr": "avion 架",
+      "en": "airplane"
+    },
+    "pinyin": "fēijī"
+  },
+  "分": {
+    "translations": {
+      "fr": "minute ; centime ; note",
+      "en": "minute, to divide"
+    },
+    "pinyin": "fēn"
+  },
+  "分钟": {
+    "translations": {
+      "fr": "minute (durée)",
+      "en": "minute"
+    },
+    "pinyin": "fēnzhōng"
+  },
+  "高兴": {
+    "translations": {
+      "fr": "content, joyeux, joyeusement",
+      "en": "happy"
+    },
+    "pinyin": "gāoxìng"
+  },
+  "个": {
+    "translations": {
+      "fr": "(pour êtres humains, certains objets, lieux, notions abstraites)",
+      "en": "one, a, an"
+    },
+    "pinyin": "gè"
+  },
+  "工作": {
+    "translations": {
+      "fr": "travail, travailler 个",
+      "en": "to work, job"
+    },
+    "pinyin": "gōngzuò"
+  },
+  "狗": {
+    "translations": {
+      "fr": "chien 只, 条",
+      "en": "dog"
+    },
+    "pinyin": "gǒu"
+  },
+  "汉语": {
+    "translations": {
+      "fr": "chinois (langue des Han)",
+      "en": "chinese language"
+    },
+    "pinyin": "Hànyǔ"
+  },
+  "汉字": {
+    "translations": {
+      "fr": "caractère chinois",
+      "en": "Chinese character"
+    },
+    "pinyin": "hànzì"
+  },
+  "好": {
+    "translations": {
+      "fr": "bon ; bien",
+      "en": "good, nice"
+    },
+    "pinyin": "hǎo"
+  },
+  "号": {
+    "translations": {
+      "fr": "numéro, jour (pour la date)",
+      "en": "number"
+    },
+    "pinyin": "hào"
+  },
+  "喝": {
+    "translations": {
+      "fr": "boire",
+      "en": "to drink"
+    },
+    "pinyin": "hē"
+  },
+  "和": {
+    "translations": {
+      "fr": "et (entre les groupes nominaux uniquement)",
+      "en": "and, with"
+    },
+    "pinyin": "hé"
+  },
+  "很": {
+    "translations": {
+      "fr": "très, beaucoup",
+      "en": "quite, very"
+    },
+    "pinyin": "hěn"
+  },
+  "后": {
+    "translations": {
+      "fr": "après, derrière",
+      "en": "after, behind"
+    },
+    "pinyin": "hòu"
+  },
+  "后面": {
+    "translations": {
+      "fr": "derrière, à l'arrière",
+      "en": "back, behind"
+    },
+    "pinyin": "hòumiàn"
+  },
+  "后天": {
+    "translations": {
+      "fr": "après-demain",
+      "en": "the day after tomorrow"
+    },
+    "pinyin": "hòutiān"
+  },
+  "回": {
+    "translations": {
+      "fr": "rentrer, revenir, retourner ; répondre (à une lettre)",
+      "en": "to return, to be back"
+    },
+    "pinyin": "huí"
+  },
+  "回来": {
+    "translations": {
+      "fr": "revenir",
+      "en": "to come back"
+    },
+    "pinyin": "huílái"
+  },
+  "回去": {
+    "translations": {
+      "fr": "retourner",
+      "en": "return"
+    },
+    "pinyin": "huíqù"
+  },
+  "会": {
+    "translations": {
+      "fr": "savoir faire ; (indique une probabilité)",
+      "en": "can, to be able to"
+    },
+    "pinyin": "huì"
+  },
+  "几": {
+    "translations": {
+      "fr": "combien? ; quelques",
+      "en": "how many (1 to 10)"
+    },
+    "pinyin": "jǐ"
+  },
+  "家": {
+    "translations": {
+      "fr": "maison, famille 个 ; (pour les lieux de commerce)",
+      "en": "home, family"
+    },
+    "pinyin": "jiā"
+  },
+  "见": {
+    "translations": {
+      "fr": "voir, avoir vu",
+      "en": "to see, to have seen"
+    },
+    "pinyin": "jiàn"
+  },
+  "叫": {
+    "translations": {
+      "fr": "s’appeler ; appeler, crier",
+      "en": "to call, to shout"
+    },
+    "pinyin": "jiào"
+  },
+  "今年": {
+    "translations": {
+      "fr": "cette année",
+      "en": "This year"
+    },
+    "pinyin": "jīnnián"
+  },
+  "今天": {
+    "translations": {
+      "fr": "aujourd’hui",
+      "en": "today"
+    },
+    "pinyin": "jīntiān"
+  },
+  "九": {
+    "translations": {
+      "fr": "neuf",
+      "en": "9, nine"
+    },
+    "pinyin": "jiǔ"
+  },
+  "开": {
+    "translations": {
+      "fr": "ouvrir ; mettre en marche (un appareil)",
+      "en": "to open, to start, to drive"
+    },
+    "pinyin": "kāi"
+  },
+  "开车": {
+    "translations": {
+      "fr": "conduire (une voiture)",
+      "en": "drive (a car)"
+    },
+    "pinyin": "kāi chē"
+  },
+  "看": {
+    "translations": {
+      "fr": "regarder, voir ; lire",
+      "en": "to look, to see, to watch"
+    },
+    "pinyin": "kàn"
+  },
+  "看见": {
+    "translations": {
+      "fr": "voir, apercevoir",
+      "en": "to see, to catch sight of"
+    },
+    "pinyin": "kànjiàn"
+  },
+  "客气": {
+    "translations": {
+      "fr": "poli, courtois",
+      "en": "polite, courteous"
+    },
+    "pinyin": "kèqi"
+  },
+  "块": {
+    "translations": {
+      "fr": "un morceau de ; yuan (unité de monnaie)",
+      "en": "piece of, lump of"
+    },
+    "pinyin": "kuài"
+  },
+  "来": {
+    "translations": {
+      "fr": "venir",
+      "en": "to come, to arrive"
+    },
+    "pinyin": "lái"
+  },
+  "老师": {
+    "translations": {
+      "fr": "professeur, enseignant 个",
+      "en": "teacher"
+    },
+    "pinyin": "lǎoshī"
+  },
+  "了": {
+    "translations": {
+      "fr": "(indique l’aspect achevé) ; (indique part. fin. l’aspect du changement)",
+      "en": "grammatical particle"
+    },
+    "pinyin": "le"
+  },
+  "冷": {
+    "translations": {
+      "fr": "froid",
+      "en": "cold"
+    },
+    "pinyin": "lěng"
+  },
+  "里": {
+    "translations": {
+      "fr": "intérieur, dans",
+      "en": "interior, inside"
+    },
+    "pinyin": "lǐ"
+  },
+  "里面": {
+    "translations": {
+      "fr": "dedans, intérieur",
+      "en": "inside, interior"
+    },
+    "pinyin": "lǐmiàn"
+  },
+  "六": {
+    "translations": {
+      "fr": "six",
+      "en": "6, six"
+    },
+    "pinyin": "liù"
+  },
+  "妈妈": {
+    "translations": {
+      "fr": "maman",
+      "en": "mom, mother"
+    },
+    "pinyin": "māma"
+  },
+  "吗": {
+    "translations": {
+      "fr": "(particule interrogative générale)",
+      "en": "interrogative particle"
+    },
+    "pinyin": "ma"
+  },
+  "买": {
+    "translations": {
+      "fr": "acheter",
+      "en": "to buy"
+    },
+    "pinyin": "mǎi"
+  },
+  "没": {
+    "translations": {
+      "fr": "ne pas",
+      "en": "not"
+    },
+    "pinyin": "méi"
+  },
+  "没关系": {
+    "translations": {
+      "fr": "Ce n’est pas grave. Cela n’est rien.",
+      "en": "it doesn’t matter"
+    },
+    "pinyin": "méi guānxi"
+  },
+  "没有": {
+    "translations": {
+      "fr": "il n’y a pas, ne pas avoir ; ne pas (négation pour le passé)",
+      "en": "no, haven't, hasn't"
+    },
+    "pinyin": "méiyǒu"
+  },
+  "米饭": {
+    "translations": {
+      "fr": "riz (cuit)",
+      "en": "cooked rice"
+    },
+    "pinyin": "mǐfàn"
+  },
+  "名字": {
+    "translations": {
+      "fr": "nom, prénom 个",
+      "en": "name"
+    },
+    "pinyin": "míngzi"
+  },
+  "明年": {
+    "translations": {
+      "fr": "année prochaine",
+      "en": "next year"
+    },
+    "pinyin": "míngnián"
+  },
+  "明天": {
+    "translations": {
+      "fr": "demain",
+      "en": "tomorrow"
+    },
+    "pinyin": "míngtiān"
+  },
+  "哪": {
+    "translations": {
+      "fr": "lequel ?",
+      "en": "which, what"
+    },
+    "pinyin": "nǎ"
+  },
+  "哪儿": {
+    "translations": {
+      "fr": "où ?",
+      "en": "where"
+    },
+    "pinyin": "nǎr"
+  },
+  "那": {
+    "translations": {
+      "fr": "cela",
+      "en": "that, those, then"
+    },
+    "pinyin": "nà"
+  },
+  "那里": {
+    "translations": {
+      "fr": "là-bas",
+      "en": "over there"
+    },
+    "pinyin": "nàlǐ"
+  },
+  "呢": {
+    "translations": {
+      "fr": "(pour relancer une question avec un nom)",
+      "en": "interrogative or affirmative particle"
+    },
+    "pinyin": "ne"
+  },
+  "能": {
+    "translations": {
+      "fr": "pouvoir",
+      "en": "can, be able to"
+    },
+    "pinyin": "néng"
+  },
+  "你": {
+    "translations": {
+      "fr": "tu",
+      "en": "you (singular, informal)"
+    },
+    "pinyin": "nǐ"
+  },
+  "你们": {
+    "translations": {
+      "fr": "vous",
+      "en": "you (plural)"
+    },
+    "pinyin": "nǐmen"
+  },
+  "年": {
+    "translations": {
+      "fr": "année",
+      "en": "year"
+    },
+    "pinyin": "nián"
+  },
+  "朋友": {
+    "translations": {
+      "fr": "ami 个",
+      "en": "friend"
+    },
+    "pinyin": "péngyou"
+  },
+  "漂亮": {
+    "translations": {
+      "fr": "joli, beau",
+      "en": "pretty, beautiful"
+    },
+    "pinyin": "piàoliang"
+  },
+  "苹果": {
+    "translations": {
+      "fr": "pomme 个",
+      "en": "apple"
+    },
+    "pinyin": "píngguǒ"
+  },
+  "七": {
+    "translations": {
+      "fr": "sept",
+      "en": "7, seven"
+    },
+    "pinyin": "qī"
+  },
+  "前": {
+    "translations": {
+      "fr": "avant, devant",
+      "en": "before, in front"
+    },
+    "pinyin": "qián"
+  },
+  "前面": {
+    "translations": {
+      "fr": "devant, avant, à l'avant",
+      "en": "in front, ahead"
+    },
+    "pinyin": "qiánmiàn"
+  },
+  "钱": {
+    "translations": {
+      "fr": "monnaie, argent",
+      "en": "money, coin"
+    },
+    "pinyin": "qián"
+  },
+  "请": {
+    "translations": {
+      "fr": "prier de ; inviter",
+      "en": "to invite, please"
+    },
+    "pinyin": "qǐng"
+  },
+  "去": {
+    "translations": {
+      "fr": "aller",
+      "en": "to go,"
+    },
+    "pinyin": "qù"
+  },
+  "热": {
+    "translations": {
+      "fr": "chaud",
+      "en": "hot, warm"
+    },
+    "pinyin": "rè"
+  },
+  "人": {
+    "translations": {
+      "fr": "homme, personne 个",
+      "en": "person, people"
+    },
+    "pinyin": "rén"
+  },
+  "认识": {
+    "translations": {
+      "fr": "connaître, connaissance",
+      "en": "to know, knowledge"
+    },
+    "pinyin": "rènshi"
+  },
+  "三": {
+    "translations": {
+      "fr": "trois",
+      "en": "3, three"
+    },
+    "pinyin": "sān"
+  },
+  "商店": {
+    "translations": {
+      "fr": "magasin, boutique 个, 家",
+      "en": "shop, store"
+    },
+    "pinyin": "shāngdiàn"
+  },
+  "上": {
+    "translations": {
+      "fr": "monter ; sur ; supérieur",
+      "en": "up"
+    },
+    "pinyin": "shàng"
+  },
+  "上面": {
+    "translations": {
+      "fr": "en haut, dessus",
+      "en": "above, above"
+    },
+    "pinyin": "shàngmiàn"
+  },
+  "上午": {
+    "translations": {
+      "fr": "matin, matinée 个",
+      "en": "morning"
+    },
+    "pinyin": "shàngwǔ"
+  },
+  "少": {
+    "translations": {
+      "fr": "peu ; manquer de ; moins",
+      "en": "few, less"
+    },
+    "pinyin": "shǎo"
+  },
+  "什么": {
+    "translations": {
+      "fr": "que ? quoi ? quel ?",
+      "en": "what"
+    },
+    "pinyin": "shénme"
+  },
+  "十": {
+    "translations": {
+      "fr": "dix",
+      "en": "10, ten"
+    },
+    "pinyin": "shí"
+  },
+  "时": {
+    "translations": {
+      "fr": "temps, moment",
+      "en": "time, moment"
+    },
+    "pinyin": "shí"
+  },
+  "时候": {
+    "translations": {
+      "fr": "temps, moment 个",
+      "en": "time, moment, period"
+    },
+    "pinyin": "shíhou"
+  },
+  "是": {
+    "translations": {
+      "fr": "être",
+      "en": "to be"
+    },
+    "pinyin": "shì"
+  },
+  "书": {
+    "translations": {
+      "fr": "livre 本",
+      "en": "book, to write"
+    },
+    "pinyin": "shū"
+  },
+  "书店": {
+    "translations": {
+      "fr": "librairie",
+      "en": "library"
+    },
+    "pinyin": "shūdiàn"
+  },
+  "水": {
+    "translations": {
+      "fr": "eau",
+      "en": "water"
+    },
+    "pinyin": "shuǐ"
+  },
+  "水果": {
+    "translations": {
+      "fr": "fruit 个",
+      "en": "fruit"
+    },
+    "pinyin": "shuǐguǒ"
+  },
+  "睡": {
+    "translations": {
+      "fr": "dormir",
+      "en": "sleep"
+    },
+    "pinyin": "shuì"
+  },
+  "睡觉": {
+    "translations": {
+      "fr": "se coucher, dormir",
+      "en": "to sleep, to go to bed"
+    },
+    "pinyin": "shuìjiào"
+  },
+  "说": {
+    "translations": {
+      "fr": "parler, raconter",
+      "en": "to speak, to talk"
+    },
+    "pinyin": "shuō"
+  },
+  "四": {
+    "translations": {
+      "fr": "quatre",
+      "en": "4, four"
+    },
+    "pinyin": "sì"
+  },
+  "岁": {
+    "translations": {
+      "fr": "année (d’âge)",
+      "en": "year, years old"
+    },
+    "pinyin": "suì"
+  },
+  "他": {
+    "translations": {
+      "fr": "il",
+      "en": "he, him"
+    },
+    "pinyin": "tā"
+  },
+  "他们": {
+    "translations": {
+      "fr": "ils, eux",
+      "en": "they (male+female / male, pl.)"
+    },
+    "pinyin": "tāmen"
+  },
+  "她": {
+    "translations": {
+      "fr": "elle",
+      "en": "she, her"
+    },
+    "pinyin": "tā"
+  },
+  "太": {
+    "translations": {
+      "fr": "trop ; vraiment",
+      "en": "too much, very"
+    },
+    "pinyin": "tài"
+  },
+  "天": {
+    "translations": {
+      "fr": "ciel ; jour ; temps (climat)",
+      "en": "sky ; day ; weather (climate)"
+    },
+    "pinyin": "tiān"
+  },
+  "天气": {
+    "translations": {
+      "fr": "temps (climat) 种",
+      "en": "weather"
+    },
+    "pinyin": "tiānqì"
+  },
+  "听": {
+    "translations": {
+      "fr": "écouter",
+      "en": "to listen, to hear"
+    },
+    "pinyin": "tīng"
+  },
+  "听见": {
+    "translations": {
+      "fr": "entendre, avoir entendu",
+      "en": "to hear, to have heard"
+    },
+    "pinyin": "tīngjiàn"
+  },
+  "同学": {
+    "translations": {
+      "fr": "camarade d’école 个",
+      "en": "classmate"
+    },
+    "pinyin": "tóngxué"
+  },
+  "喂": {
+    "translations": {
+      "fr": "Allo !",
+      "en": "to feed, to breed"
+    },
+    "pinyin": "wèi"
+  },
+  "我": {
+    "translations": {
+      "fr": "je",
+      "en": "I, me"
+    },
+    "pinyin": "wǒ"
+  },
+  "我们": {
+    "translations": {
+      "fr": "nous",
+      "en": "we, us"
+    },
+    "pinyin": "wǒmen"
+  },
+  "五": {
+    "translations": {
+      "fr": "cinq",
+      "en": "5, five"
+    },
+    "pinyin": "wǔ"
+  },
+  "午饭": {
+    "translations": {
+      "fr": "déjeuner",
+      "en": "lunch"
+    },
+    "pinyin": "wǔfàn"
+  },
+  "喜欢": {
+    "translations": {
+      "fr": "aimer, avoir le goût de",
+      "en": "to like"
+    },
+    "pinyin": "xǐhuan"
+  },
+  "下": {
+    "translations": {
+      "fr": "descendre ; sous ; inférieur",
+      "en": "down"
+    },
+    "pinyin": "xià"
+  },
+  "下面": {
+    "translations": {
+      "fr": "en bas, dessous",
+      "en": "below, below"
+    },
+    "pinyin": "xiàmiàn"
+  },
+  "下午": {
+    "translations": {
+      "fr": "après-midi 个",
+      "en": "afternoon"
+    },
+    "pinyin": "xiàwǔ"
+  },
+  "下雨": {
+    "translations": {
+      "fr": "pleuvoir",
+      "en": "to rain"
+    },
+    "pinyin": "xiàyǔ"
+  },
+  "先生": {
+    "translations": {
+      "fr": "monsieur 个, 位",
+      "en": "sir, teacher, husband"
+    },
+    "pinyin": "xiānsheng"
+  },
+  "现在": {
+    "translations": {
+      "fr": "maintenant",
+      "en": "now"
+    },
+    "pinyin": "xiànzài"
+  },
+  "想": {
+    "translations": {
+      "fr": "vouloir, avoir envie de ; penser à ; penser que ; réfléchir",
+      "en": "to think, to want"
+    },
+    "pinyin": "xiǎng"
+  },
+  "小": {
+    "translations": {
+      "fr": "petit ; jeune ; (préfixe)",
+      "en": "small, young"
+    },
+    "pinyin": "xiǎo"
+  },
+  "小姐": {
+    "translations": {
+      "fr": "jeune fille, demoiselle 个",
+      "en": "miss"
+    },
+    "pinyin": "xiǎojiě"
+  },
+  "些": {
+    "translations": {
+      "fr": "(quantité incertaine) ; quelques, plusieurs",
+      "en": "some"
+    },
+    "pinyin": "xiē"
+  },
+  "写": {
+    "translations": {
+      "fr": "écrire",
+      "en": "to write"
+    },
+    "pinyin": "xiě"
+  },
+  "谢谢": {
+    "translations": {
+      "fr": "merci ; Merci.",
+      "en": "thank you"
+    },
+    "pinyin": "xièxie"
+  },
+  "星期": {
+    "translations": {
+      "fr": "semaine 个",
+      "en": "week"
+    },
+    "pinyin": "xīngqī"
+  },
+  "星期一": {
+    "translations": {
+      "fr": "lundi",
+      "en": "Monday"
+    },
+    "pinyin": "xīngqīyī"
+  },
+  "学": {
+    "translations": {
+      "fr": "apprendre, étudier",
+      "en": "learn, study"
+    },
+    "pinyin": "xué"
+  },
+  "学车": {
+    "translations": {
+      "fr": "apprendre à conduire",
+      "en": "learn to drive"
+    },
+    "pinyin": "xué chē"
+  },
+  "学生": {
+    "translations": {
+      "fr": "élève, étudiant 个",
+      "en": "student, pupil"
+    },
+    "pinyin": "xuéshēng"
+  },
+  "学习": {
+    "translations": {
+      "fr": "étudier, apprendre, étude",
+      "en": "to study, to learn"
+    },
+    "pinyin": "xuéxí"
+  },
+  "学校": {
+    "translations": {
+      "fr": "école 个",
+      "en": "school"
+    },
+    "pinyin": "xuéxiào"
+  },
+  "一": {
+    "translations": {
+      "fr": "un",
+      "en": "1, one"
+    },
+    "pinyin": "yī"
+  },
+  "一点儿": {
+    "translations": {
+      "fr": "un peu",
+      "en": "a little"
+    },
+    "pinyin": "yìdiǎnr"
+  },
+  "一些": {
+    "translations": {
+      "fr": "des (une certaine quantité)",
+      "en": "(a certain quantity)"
+    },
+    "pinyin": "yìxiē"
+  },
+  "衣服": {
+    "translations": {
+      "fr": "habit, vêtement 件",
+      "en": "clothing, clothes"
+    },
+    "pinyin": "yīfu"
+  },
+  "医生": {
+    "translations": {
+      "fr": "médecin, docteur 个",
+      "en": "doctor"
+    },
+    "pinyin": "yīshēng"
+  },
+  "医院": {
+    "translations": {
+      "fr": "hôpital 个, 家",
+      "en": "hospital"
+    },
+    "pinyin": "yīyuàn"
+  },
+  "椅子": {
+    "translations": {
+      "fr": "chaise, fauteuil 把",
+      "en": "chair"
+    },
+    "pinyin": "yǐzi"
+  },
+  "有": {
+    "translations": {
+      "fr": "avoir, il y a",
+      "en": "to have, to exist"
+    },
+    "pinyin": "yǒu"
+  },
+  "有点儿": {
+    "translations": {
+      "fr": "un peu, légèrement",
+      "en": "a little, slightly"
+    },
+    "pinyin": "yǒudiǎnr"
+  },
+  "雨": {
+    "translations": {
+      "fr": "pluie",
+      "en": "rain"
+    },
+    "pinyin": "yǔ"
+  },
+  "月": {
+    "translations": {
+      "fr": "lune ; mois 个",
+      "en": "month, moon"
+    },
+    "pinyin": "yuè"
+  },
+  "再见": {
+    "translations": {
+      "fr": "Au revoir.",
+      "en": "goodbye, see you"
+    },
+    "pinyin": "zàijiàn"
+  },
+  "在": {
+    "translations": {
+      "fr": "à ; se trouver à",
+      "en": "to be doing something ,at, in"
+    },
+    "pinyin": "zài"
+  },
+  "怎么": {
+    "translations": {
+      "fr": "comment ? pourquoi ?",
+      "en": "how, why, what"
+    },
+    "pinyin": "zěnme"
+  },
+  "怎么样": {
+    "translations": {
+      "fr": "Comment ça va ? Que pensez-vous de… ?",
+      "en": "how about"
+    },
+    "pinyin": "zěnmeyàng"
+  },
+  "长": {
+    "translations": {
+      "fr": "long",
+      "en": "long, length"
+    },
+    "pinyin": "cháng"
+  },
+  "这": {
+    "translations": {
+      "fr": "ce, ceci",
+      "en": "this, these"
+    },
+    "pinyin": "zhè"
+  },
+  "这儿": {
+    "translations": {
+      "fr": "ici",
+      "en": "here"
+    },
+    "pinyin": "zhèr"
+  },
+  "中国": {
+    "translations": {
+      "fr": "Chine",
+      "en": "China"
+    },
+    "pinyin": "Zhōngguó"
+  },
+  "中午": {
+    "translations": {
+      "fr": "midi",
+      "en": "noon, midday"
+    },
+    "pinyin": "zhōngwǔ"
+  },
+  "住": {
+    "translations": {
+      "fr": "habiter",
+      "en": "to live"
+    },
+    "pinyin": "zhù"
+  },
+  "住院": {
+    "translations": {
+      "fr": "être hospitalisé",
+      "en": "be hospitalized"
+    },
+    "pinyin": "zhù yuàn"
+  },
+  "桌子": {
+    "translations": {
+      "fr": "table 张",
+      "en": "table, desk"
+    },
+    "pinyin": "zhuōzi"
+  },
+  "字": {
+    "translations": {
+      "fr": "caractère (d’écriture) 个",
+      "en": "word, character"
+    },
+    "pinyin": "zì"
+  },
+  "昨天": {
+    "translations": {
+      "fr": "hier",
+      "en": "yesterday"
+    },
+    "pinyin": "zuótiān"
+  },
+  "坐": {
+    "translations": {
+      "fr": "s’asseoir ; prendre (le bus, le train, l’avion)",
+      "en": "to sit"
+    },
+    "pinyin": "zuò"
+  },
+  "坐车": {
+    "translations": {
+      "fr": "v.séc. prendre le bus, en voiture (en tant que",
+      "en": "v. sec. take the bus, by car (as"
+    },
+    "pinyin": "zuò chē"
+  },
+  "做": {
+    "translations": {
+      "fr": "faire",
+      "en": "to do, to make"
+    },
+    "pinyin": "zuò"
+  },
+  "做饭": {
+    "translations": {
+      "fr": "cuisiner, préparer un repas",
+      "en": "cook, prepare a meal"
+    },
+    "pinyin": "zuò fàn"
+  }
+}

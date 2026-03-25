@@ -1,0 +1,131 @@
+/* LearningHSK — tokens « Ink & Pixel » (mobile-first) */
+:root {
+  --bg-deep: #070a10;
+  --bg-elevated: #0c1220;
+  --surface: rgba(255, 255, 255, 0.07);
+  --surface-strong: rgba(255, 255, 255, 0.1);
+  --border: rgba(255, 255, 255, 0.11);
+  --text: #f2f4f8;
+  --muted: rgba(242, 244, 248, 0.62);
+  --jade: #3db889;
+  --jade-muted: rgba(61, 184, 137, 0.35);
+  --jade-dark: #2a9a6e;
+  --porcelain: #5b8def;
+  --porcelain-muted: rgba(91, 141, 239, 0.25);
+  --vermillion: #e85d4c;
+  --lotus: #c084fc;
+  --amber: #f59e0b;
+  --frost: #38bdf8;
+  --warn: #f0b429;
+  --danger: #e5484d;
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --font-ui: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-han: "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  /* Alias legacy dans les anciens fichiers */
+  --accent: var(--porcelain);
+  --accent2: var(--jade);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-family: var(--font-ui);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-deep);
+  background-image:
+    radial-gradient(1000px 520px at 88% 8%, rgba(91, 141, 239, 0.12), transparent 55%),
+    radial-gradient(900px 480px at 12% 12%, rgba(61, 184, 137, 0.14), transparent 58%),
+    radial-gradient(700px 420px at 50% 96%, rgba(240, 180, 80, 0.06), transparent 55%),
+    linear-gradient(180deg, var(--bg-elevated), var(--bg-deep));
+  background-repeat: no-repeat;
+  background-size: auto, auto, auto, 100% 100%;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Boutons système (shell / jeu) */
+.ink-btn {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.55rem 1rem;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ink-btn--primary {
+  background: linear-gradient(180deg, var(--jade), var(--jade-dark));
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.ink-btn--primary:hover {
+  filter: brightness(1.05);
+}
+
+.ink-btn--ghost {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.ink-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.ink-btn:active {
+  transform: scale(0.98);
+}
+
+/* Desktop : hiérarchie un peu plus lisible (rem suit la racine) */
+@media (min-width: 641px) {
+  html {
+    font-size: 115%;
+  }
+
+  .ink-btn {
+    font-size: 1rem;
+    padding: 0.58rem 1.1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ink-btn,
+  .hero-card,
+  .level-card,
+  .card,
+  .next-button,
+  .progressFill {
+    transition: none !important;
+  }
+
+  .card.wrong {
+    animation: none !important;
+  }
+
+  .ink-btn:active {
+    transform: none;
+  }
+}

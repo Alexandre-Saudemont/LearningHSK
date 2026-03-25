@@ -1,0 +1,7 @@
+.App {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: max(1.5rem, 4vh) 16px 2.5rem;
+}

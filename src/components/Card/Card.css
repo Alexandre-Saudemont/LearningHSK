@@ -1,0 +1,174 @@
+/* Base : le « type » (汉字 vs trad) porte le fond et la bordure */
+.card {
+	border-radius: var(--radius-md);
+	padding: 9px 7px;
+	cursor: grab;
+	opacity: 1;
+	text-align: center;
+	width: 100%;
+	min-width: 0;
+	/* Même cadre que les cartes traduction (pinyin + glose) */
+	min-height: 74px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(10px);
+	transition: box-shadow 180ms ease, border-color 180ms ease, background 180ms ease, opacity 180ms ease;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* 汉字 : ton papier / jade — repère visuel immédiat */
+.card.character {
+	font-family: var(--font-han);
+	font-size: 1.18rem;
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	line-height: 1.25;
+	color: rgba(255, 252, 248, 0.96);
+	background: linear-gradient(165deg, rgba(255, 236, 210, 0.2), rgba(40, 55, 45, 0.35));
+	border: 1px solid rgba(61, 184, 137, 0.38);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Traduction : fond taupe / mauve (pas bleu — le texte anglais reste bleu clair en italique)
+ * pour garder un bon contraste avec les cartes 汉字 au vert.
+ */
+.card.translation {
+	font-family: var(--font-ui);
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.32;
+	color: rgba(245, 242, 246, 0.95);
+	background: linear-gradient(165deg, rgba(108, 88, 108, 0.32), rgba(30, 24, 32, 0.58));
+	border: 1px solid rgba(195, 160, 180, 0.35);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.card-translationInner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.3rem;
+	width: 100%;
+	min-width: 0;
+}
+
+/* Pinyin : dominant, style normal, plus grand */
+.card-pinyinLine {
+	display: block;
+	width: 100%;
+	font-size: 1.1rem;
+	font-style: normal;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.94);
+	letter-spacing: 0.04em;
+	line-height: 1.25;
+}
+
+/* Traduction anglaise : italique, un cran sous le pinyin mais bien lisible */
+.card-meaningLine {
+	display: block;
+	width: 100%;
+	font-size: 0.95rem;
+	font-style: italic;
+	font-weight: 400;
+	color: rgba(186, 205, 255, 0.82);
+	line-height: 1.38;
+}
+
+.card:active {
+	cursor: grabbing;
+}
+
+.card:hover:not(.is-dragging) {
+	transform: translateY(-2px);
+	box-shadow: 0 14px 32px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.22);
+}
+
+.card.is-dragging {
+	cursor: grabbing;
+	z-index: 20;
+	touch-action: none;
+}
+
+.card.matched {
+	background: linear-gradient(165deg, rgba(61, 184, 137, 0.28), rgba(25, 60, 45, 0.4)) !important;
+	border-color: rgba(61, 184, 137, 0.5) !important;
+	cursor: not-allowed;
+	opacity: 0.55;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25) !important;
+}
+
+.card.matched .card-pinyinLine {
+	color: rgba(235, 248, 240, 0.78);
+}
+
+.card.matched .card-meaningLine {
+	color: rgba(200, 220, 235, 0.55);
+}
+
+.card.is-over {
+	border-color: rgba(91, 141, 239, 0.95);
+	box-shadow: 0 0 0 3px var(--porcelain-muted), 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.card.selected:not(.is-dragging) {
+	border: 1px solid rgba(91, 141, 239, 0.9);
+	box-shadow: 0 0 0 3px var(--porcelain-muted), 0 16px 40px rgba(0, 0, 0, 0.35);
+	transform: translateY(-1px) scale(1.02);
+}
+
+.card.character.selected {
+	border-color: rgba(61, 184, 137, 0.9);
+	box-shadow: 0 0 0 3px var(--jade-muted), 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.card.translation.selected {
+	border-color: rgba(240, 180, 41, 0.95);
+	box-shadow: 0 0 0 3px rgba(240, 180, 41, 0.22), 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.card.wrong {
+	border-color: rgba(229, 72, 77, 0.9);
+	box-shadow: 0 0 0 3px rgba(229, 72, 77, 0.2), 0 16px 40px rgba(0, 0, 0, 0.35);
+	animation: card-shake 320ms ease-in-out;
+}
+
+@keyframes card-shake {
+	0% {
+		transform: translateX(0);
+	}
+	20% {
+		transform: translateX(-5px);
+	}
+	40% {
+		transform: translateX(5px);
+	}
+	60% {
+		transform: translateX(-4px);
+	}
+	80% {
+		transform: translateX(4px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.card:hover:not(.is-dragging) {
+		transform: none;
+	}
+
+	.card.selected:not(.is-dragging) {
+		transform: none;
+	}
+
+	.card.wrong {
+		animation: none;
+	}
+}
